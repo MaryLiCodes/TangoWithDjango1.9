@@ -1,2 +1,2 @@
-# TangoWithDjango1.9
-TangoWithDjango1.9
+# TangoWithDjango2
+TangoWithDjango2
