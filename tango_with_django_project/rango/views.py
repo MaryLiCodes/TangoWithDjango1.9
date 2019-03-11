@@ -9,4 +9,5 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("This is the about page <a href='/rango/'>index</a")
+    context_dict = {'name': 'Mary'}
+    return render(request, 'rango/about.html', context=context_dict)
